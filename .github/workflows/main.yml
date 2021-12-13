@@ -27,7 +27,7 @@ jobs:
           destination-repository-name: 'react-native-chat-app-ii'
           user-email: sabih@jogo.ai
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
-          target-branch: main
+          target-branch: master
           target-directory: 'CometChatWorkspace/cometchat-app/android/'
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
