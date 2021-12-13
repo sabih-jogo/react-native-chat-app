@@ -18,7 +18,7 @@ jobs:
 #        run:  sh ./build.sh
       - name: Pushes to another repository
         id: push_directory
-        uses: sabih-jogo/react-native-chat-app@main
+        uses: sabih-jogo/react-native-chat-app@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
